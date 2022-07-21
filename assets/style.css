@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;1,300&display=swap');
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin : 0;
+}
+h2, h3{
+    color: #B1A296;
+}
+footer{
+    box-sizing: border-box;
+    border-width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: #B1A296;
+    padding-top: 25px;
+}
+.fotoDiri{
+    width :250px;
+}
+a img{
+    display : inline;
+    transition: all 0.2s ease-in-out;
+    height: 55px;
+    width : auto;
+    padding : 2px;
+}
+a :hover{
+    opacity: 0.5;
+}
+a{
+    padding-right: 10px;
+}
+.jumbotron{
+    background-color: #B1A296;
+    background-image: url(image/danku.png);
+    padding : 20px;
+    margin-bottom : 30px;
+}
